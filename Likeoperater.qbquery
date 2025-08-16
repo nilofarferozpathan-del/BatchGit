@@ -1,0 +1,15 @@
+﻿use studentmanagement;
+
+select * from student;
+
+select * from student where name like '%Pr%a';
+
+select * from student where name like 'Pri%';
+
+select * from student where name like '%a';
+
+insert into student values(111,"Prameela");
+
+#to get details of name ending with a
+
+select * from student where name like '%a';
